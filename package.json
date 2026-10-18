@@ -1,0 +1,37 @@
+{
+  "name": "cryptofeed402-mcp",
+  "version": "1.0.0",
+  "description": "MCP (stdio) server for cryptofeed402: crypto market data for AI agents, pay-per-call with x402 (USDC on Base). Free teaser/sample/pricing tools; paid tools return x402 payment requirements.",
+  "type": "module",
+  "bin": {
+    "cryptofeed402-mcp": "index.mjs"
+  },
+  "files": [
+    "index.mjs",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "x402",
+    "crypto",
+    "hyperliquid",
+    "funding-rate",
+    "base",
+    "usdc",
+    "ai-agents"
+  ],
+  "homepage": "https://cryptofeed402.site",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.20.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stovepipes55-jpg/-cryptofeed402-mcp-.git"
+  }
+}
